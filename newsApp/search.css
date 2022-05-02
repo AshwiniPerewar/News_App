@@ -1,0 +1,25 @@
+
+#results{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 3fr;
+    gap: 10px;
+}
+
+#results>div{
+    width: 100%;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid blue;
+    gap: 10px;
+   
+}
+
+#results>div>img{
+    width: 90%;
+    height: inherit;
+   
+}

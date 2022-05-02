@@ -1,0 +1,40 @@
+
+#sidebar{
+  margin-left: 20px;
+}
+#sidebar>h3{
+  background-color: teal;
+  width: 130px;
+  height: 30px;
+  padding: 6px;
+}
+
+#results{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 3fr;
+  gap: 10px;
+}
+
+#results>div{
+  width: 100%;
+  height: 130px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border: 1px solid blue;
+  gap: 10px;
+ 
+}
+
+#results>div>img{
+  width: 90%;
+  height: inherit;
+ 
+}
+
+#display{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 0.6fr 3fr;
+  gap: 10px;
+}

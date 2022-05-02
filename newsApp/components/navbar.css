@@ -1,0 +1,18 @@
+#navbar{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#search_input{
+  width: 1000px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+
+a{
+    font-size: 32px;
+}
